@@ -17,5 +17,6 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^Rating/', include('Rating.urls')),
     url(r'^admin/', admin.site.urls),
 ]
